@@ -16,7 +16,7 @@ select age from patient where age between 25 and 40;
 
 select name from doctor where name like '%n' or name like 'a%';
  
- #Update my foreign in all table
+ #Update my foreign key in all table
  
 Alter table appointment drop foreign key appointment_ibfk_1;
 alter table admission drop foreign key admission_ibfk_1;
